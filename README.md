@@ -49,16 +49,40 @@ Below are visual outputs from the trained model:
 [[41525 9]
 
 #### Confusion Matrix:
-[ 37 46]]
-#### Classification Report:
-precision    recall  f1-score   support  
-     0.0       1.00      1.00      1.00     41534  
-     1.0       0.84      0.55      0.67        83  
+Confusion Matrix:
+[[41525     9]
+ [   37    46]]
 
-accuracy                           1.00     41617  
+Classification Report:
+              precision    recall  f1-score   support
 
-macro avg 0.92 0.78 0.83 41617
-weighted avg 1.00 1.00 1.00 41617
+         0.0       1.00      1.00      1.00     41534
+         1.0       0.84      0.55      0.67        83
+
+    accuracy                           1.00     41617
+   macro avg       0.92      0.78      0.83     41617
+weighted avg       1.00      1.00      1.00     41617
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00     41534
+         1.0       0.84      0.55      0.67        83
+
+    accuracy                           1.00     41617
+   macro avg       0.92      0.78      0.83     41617
+weighted avg       1.00      1.00      1.00     41617
+
+### 📊 Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0.0   | 1.00      | 1.00   | 1.00     | 41534   |
+| 1.0   | 0.84      | 0.55   | 0.67     | 83      |
+| **Accuracy** |       |        | **1.00** | 41617   |
+| **Macro Avg** | 0.92 | 0.78   | 0.83     | 41617   |
+| **Weighted Avg** | 1.00 | 1.00 | 1.00     | 41617   |
+
 
 
 #### Sample Data Preview
