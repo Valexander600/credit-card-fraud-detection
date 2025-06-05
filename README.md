@@ -6,10 +6,6 @@
 
 This project applies supervised learning techniques to detect fraudulent credit card transactions using an imbalanced dataset from Kaggle. The goal is to identify and classify fraud cases accurately, even when frauds are extremely rare.
 
-
-## Overview
-[Your existing overview here]
-
 ## 📌 Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -18,6 +14,10 @@ This project applies supervised learning techniques to detect fraudulent credit 
 - [Evaluation](#evaluation)
 - [Conclusion](#conclusion)
 - [Screenshots](#screenshots)
+
+## Overview
+[Your existing overview here]
+
 
 ---
 
@@ -75,12 +75,15 @@ Below are visual outputs from the trained model:
 | **Weighted avg**| 1.00     | 1.00   | 1.00     | 41617   |
 
 
+
 #### Confusion Matrix:
 Confusion Matrix:
 [[41525     9]
  [   37    46]]
 
 
+## 📸 Screenshot
+Here is a screenshot of from the Google Colab notebook showing model training and evaluation results:
 
 #### Sample Data Preview
 ![Sample Data](sampledatapreview.png)
