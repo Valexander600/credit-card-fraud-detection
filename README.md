@@ -1,28 +1,60 @@
-# Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection with Machine Learning
 
-## Project Overview
+This project applies supervised learning techniques to detect fraudulent credit card transactions using an imbalanced dataset from Kaggle. The goal is to identify and classify fraud cases accurately, even when frauds are extremely rare.
 
-This project is focused on building a machine learning model to predict fraudulent credit card transactions using a real-world dataset. Fraudulent transactions pose a significant challenge to the financial industry, and detecting these transactions in real-time is crucial for minimizing the impact.
+---
 
-The goal of this project is to apply machine learning techniques to classify credit card transactions as either fraudulent or non-fraudulent based on various features, such as transaction amount, user behavior, and more.
+## 📁 Dataset
 
-## Key Features
-- **Data Preprocessing**: The dataset is cleaned and prepared for analysis by handling missing values, encoding categorical features, and normalizing numerical features.
-- **Model Implementation**: A Logistic Regression model is used to predict fraudulent transactions.
-- **Model Evaluation**: The model’s performance is assessed using common metrics such as accuracy, precision, recall, F1 score, and confusion matrix.
-- **Visualization**: Visualizations like confusion matrices and classification report plots are used to help understand the model's performance.
+- Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Contains anonymized features (`V1` to `V28`), `Amount`, and a binary target variable `Class` (1 = Fraud, 0 = Legit).
 
-## Dataset
+---
 
-- The dataset contains information about 1259 credit card transactions. Each transaction includes features like `Age`, `Gender`, `Country`, `Transaction Amount`, and `Fraudulent` (target variable).
-- The target variable indicates whether the transaction was fraudulent (1) or non-fraudulent (0).
+## 📊 Exploratory Data Analysis (EDA)
 
-### Dataset Source:
-- [Credit Card Fraud Detection Dataset (Kaggle)](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- Highly imbalanced dataset (~0.17% fraud cases)
+- Features transformed via PCA
+- Visualizations: class distribution, correlation matrix, and transaction amounts
 
-## Getting Started
+---
 
-1. **Clone the Repository**:
-   To get started with the project, clone the repository to your local machine:
+## 🤖 Models Used
+
+- Logistic Regression
+- Random Forest Classifier
+- Performance metrics:
+  - Confusion Matrix ✅
+  - Precision, Recall, F1-Score ✅
+  - ROC AUC Score ✅
+
+---
+
+## 📈 Model Results
+
+| Model               | Precision | Recall | F1-Score | ROC AUC |
+|---------------------|-----------|--------|----------|---------|
+| Logistic Regression | 0.91      | 0.74   | 0.81     | 0.97    |
+| Random Forest       | 0.93      | 0.76   | 0.84     | 0.98    |
+
+*(Replace these numbers with your actual results)*
+
+---
+
+## 🖼 Sample Visuals
+
+![Confusion Matrix](images/conf_matrix.png)
+![ROC Curve](images/roc_curve.png)
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/Valexander600/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
+
+pip install -r requirements.txt
+jupyter notebook credit_card_fraud.ipynb
+
