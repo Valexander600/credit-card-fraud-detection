@@ -6,11 +6,13 @@
 ## 📌 Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Data Preprocessing](#data-preprocessing)
-- [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Conclusion](#conclusion)
-- [Screenshots](#screenshots)
+- [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+- [Models Used](#-models-used)
+- [Model Results](#-model-results)
+- [Evaluation](#-evaluation)
+- [Screenshots](#-screenshot)
+- [Conclusion](#-conclusion)
+- [Future Work](#-future-work)
 
 ## Overview
 This project builds machine learning models to detect fraudulent credit card transactions using the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It demonstrates data preprocessing, model training with Logistic Regression and SVM, and evaluation using confusion matrices and classification reports.
