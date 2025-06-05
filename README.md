@@ -80,7 +80,7 @@ Confusion Matrix:
  [   37    46]]
 
 
-## 📸 Screenshot
+## 📸 Screenshots
 Here is a screenshot of from the Google Colab notebook showing model training and evaluation results:
 
 #### Data Preview
