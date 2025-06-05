@@ -99,7 +99,7 @@ Confusion Matrix:
 ## 📸 Screenshot
 Here is a screenshot of from the Google Colab notebook showing model training and evaluation results:
 
-#### Sample Data Preview
+#### Data Preview
 ![Sample Data](sampledatapreview.png)
 
 
