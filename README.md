@@ -18,7 +18,19 @@ This project applies supervised learning techniques to detect fraudulent credit 
 - [Screenshots](#screenshots)
 
 ## Overview
-[Your existing overview here]
+This project builds machine learning models to detect fraudulent credit card transactions using the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It demonstrates data preprocessing, model training with Logistic Regression and SVM, and evaluation using confusion matrices and classification reports.
+
+## How to Run
+
+To reproduce the results:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Valexander600/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+pip install -r requirements.txt
+jupyter notebook
+
 
 
 ---
@@ -60,22 +72,22 @@ This project applies supervised learning techniques to detect fraudulent credit 
 
 ---
 
-### 🔍 Model Evaluation
-
-Below are visual outputs from the trained model:
+### 🔍 Modeling 
+ - Logistic Regression
+- Support Vector Machine (SVM)
 
 ### 🧪 ## Evaluation
 
+- Confusion Matrix
+- Classification Report
+
 ### 📊 Classification Report:
 
-| Class          | Precision | Recall | F1-Score | Support |
-|----------------|-----------|--------|----------|---------|
-| 0.0            | 1.00      | 1.00   | 1.00     | 41534   |
-| 1.0            | 0.84      | 0.55   | 0.67     | 83      |
-| **Accuracy**   |           |        | **1.00** | 41617   |
-| **Macro avg**  | 0.92      | 0.78   | 0.83     | 41617   |
-| **Weighted avg**| 1.00     | 1.00   | 1.00     | 41617   |
+Class	Precision	Recall	F1-Score	Support
+0	1.00	1.00	1.00	41534
+1	0.84	0.55	0.67	83
 
+Overall accuracy: 1.00
 
 
 #### Confusion Matrix:
