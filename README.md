@@ -1,4 +1,6 @@
 # 💳 Credit Card Fraud Detection with Machine Learning
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Credit Card Fraud Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
