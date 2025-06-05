@@ -1,6 +1,24 @@
 # 💳 Credit Card Fraud Detection with Machine Learning
+# Credit Card Fraud Detection
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 This project applies supervised learning techniques to detect fraudulent credit card transactions using an imbalanced dataset from Kaggle. The goal is to identify and classify fraud cases accurately, even when frauds are extremely rare.
+
+# Credit Card Fraud Detection
+
+## Overview
+[Your existing overview here]
+
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Data Preprocessing](#data-preprocessing)
+- [Modeling](#modeling)
+- [Evaluation](#evaluation)
+- [Conclusion](#conclusion)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -45,43 +63,23 @@ This project applies supervised learning techniques to detect fraudulent credit 
 
 Below are visual outputs from the trained model:
 
-### 🧪 Evaluation Metrics
-[[41525 9]
+### 🧪 ## Evaluation
+
+### 📊 Classification Report:
+
+| Class          | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| 0.0            | 1.00      | 1.00   | 1.00     | 41534   |
+| 1.0            | 0.84      | 0.55   | 0.67     | 83      |
+| **Accuracy**   |           |        | **1.00** | 41617   |
+| **Macro avg**  | 0.92      | 0.78   | 0.83     | 41617   |
+| **Weighted avg**| 1.00     | 1.00   | 1.00     | 41617   |
+
 
 #### Confusion Matrix:
 Confusion Matrix:
 [[41525     9]
  [   37    46]]
-
-Classification Report:
-              precision    recall  f1-score   support
-
-         0.0       1.00      1.00      1.00     41534
-         1.0       0.84      0.55      0.67        83
-
-    accuracy                           1.00     41617
-   macro avg       0.92      0.78      0.83     41617
-weighted avg       1.00      1.00      1.00     41617
-
-Classification Report:
-              precision    recall  f1-score   support
-
-         0.0       1.00      1.00      1.00     41534
-         1.0       0.84      0.55      0.67        83
-
-    accuracy                           1.00     41617
-   macro avg       0.92      0.78      0.83     41617
-weighted avg       1.00      1.00      1.00     41617
-
-### 📊 Classification Report
-
-| Class | Precision | Recall | F1-Score | Support |
-|-------|-----------|--------|----------|---------|
-| 0.0   | 1.00      | 1.00   | 1.00     | 41534   |
-| 1.0   | 0.84      | 0.55   | 0.67     | 83      |
-| **Accuracy** |       |        | **1.00** | 41617   |
-| **Macro Avg** | 0.92 | 0.78   | 0.83     | 41617   |
-| **Weighted Avg** | 1.00 | 1.00 | 1.00     | 41617   |
 
 
 
@@ -101,3 +99,5 @@ weighted avg       1.00      1.00      1.00     41617
 pip install -r requirements.txt
 jupyter notebook credit_card_fraud.ipynb
 
+## ✅ Conclusion
+This project demonstrates the ability to detect fraudulent transactions using machine learning with high precision and accuracy. Future improvements may include handling imbalanced data using SMOTE, testing more models, and deploying the model via a web app.
