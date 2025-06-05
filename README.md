@@ -41,10 +41,31 @@ This project applies supervised learning techniques to detect fraudulent credit 
 
 ---
 
-## 🖼 Sample Visuals
+### 🔍 Model Evaluation
 
-![Confusion Matrix](images/conf_matrix.png)
-![ROC Curve](images/roc_curve.png)
+Below are visual outputs from the trained model:
+
+### 🧪 Evaluation Metrics
+[[41525 9]
+
+#### Confusion Matrix:
+[ 37 46]]
+#### Classification Report:
+precision    recall  f1-score   support  
+     0.0       1.00      1.00      1.00     41534  
+     1.0       0.84      0.55      0.67        83  
+
+accuracy                           1.00     41617  
+
+macro avg 0.92 0.78 0.83 41617
+weighted avg 1.00 1.00 1.00 41617
+
+#### ROC AUC Curve
+![ROC AUC](images/roc_auc.png)
+
+#### Sample Data Preview
+![Sample Data](images/sample_data.png)
+
 
 ---
 
