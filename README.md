@@ -64,7 +64,7 @@ weighted avg 1.00 1.00 1.00 41617
 ![ROC AUC](images/roc_auc.png)
 
 #### Sample Data Preview
-![Sample Data](images/sample_data.png)
+![Sample Data](sampledatapreview.png)
 
 
 ---
