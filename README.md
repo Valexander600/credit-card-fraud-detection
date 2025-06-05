@@ -90,7 +90,6 @@ Here is a screenshot of from the Google Colab notebook showing model training an
 
 To reproduce the results locally, follow these steps:
 
-(```bash
 # Clone the repository
 git clone https://github.com/Valexander600/credit-card-fraud-detection.git
 
@@ -101,7 +100,8 @@ cd credit-card-fraud-detection
 pip install -r requirements.txt
 
 # Launch the Jupyter Notebook
-jupyter notebook credit_card_fraud.ipynb `` `) 
+jupyter notebook credit_card_fraud.ipynb
+
 
 ## ✅ Conclusion 
 This project demonstrates how machine learning can accurately detect fraudulent credit card transactions, even in highly imbalanced datasets. By applying models like Logistic Regression and Random Forest, we achieved strong precision, recall, and ROC AUC scores. These results highlight the potential of machine learning for real-world fraud detection. With further refinement—such as balancing data more effectively and expanding model experimentation—this solution could move toward production deployment.
