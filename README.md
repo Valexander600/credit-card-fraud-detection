@@ -86,7 +86,7 @@ Here is a screenshot of from the Google Colab notebook showing model training an
 
 
 ---
-
+```markdown
 ## 🚀 How to Run
 
 1. To reproduce the results, follow these steps:
@@ -98,36 +98,3 @@ pip install -r requirements.txt
 jupyter notebook credit_card_fraud.ipynb
 
 
-## ✅ Conclusion
-This project demonstrates how machine learning can effectively detect fraudulent credit card transactions, even within highly imbalanced datasets. By applying models like Logistic Regression and Random Forest, we achieved strong precision and accuracy scores, showing potential for real-world fraud detection. While the results are promising, future improvements could include handling class imbalance more robustly (e.g., SMOTE), experimenting with ensemble models like XGBoost, and deploying the solution through a web or API-based application for real-time use.
-
-## 🔮 Future work
-To enhance this project and push it toward production-readiness, the following improvements are recommended:
-
-📊 Handle Class Imbalance
-
-Apply techniques like SMOTE, ADASYN, or undersampling to improve fraud case detection.
-
-🚀 Test Advanced Algorithms
-
-Experiment with XGBoost, LightGBM, or CatBoost for better accuracy and efficiency.
-
-🔧 Feature Engineering
-
-Derive new features from Time, Amount, or build domain-specific transformations to improve model performance.
-
-🧠 Model Interpretability
-
-Use SHAP or LIME to explain model predictions and ensure transparency.
-
-🔁 Build ML Pipelines
-
-Automate data preprocessing, model training, and evaluation using scikit-learn pipelines or MLflow.
-
-🌐 Deploy as Web App
-
-Use Flask or FastAPI to create an API, then deploy using Render, Heroku, or AWS.
-
-📈 Monitoring & Alerts
-
-Integrate logging, alerts, and performance monitoring for real-time fraud detection in a production environment.
