@@ -60,8 +60,6 @@ accuracy                           1.00     41617
 macro avg 0.92 0.78 0.83 41617
 weighted avg 1.00 1.00 1.00 41617
 
-#### ROC AUC Curve
-![ROC AUC](images/roc_auc.png)
 
 #### Sample Data Preview
 ![Sample Data](sampledatapreview.png)
