@@ -6,7 +6,6 @@
 
 This project applies supervised learning techniques to detect fraudulent credit card transactions using an imbalanced dataset from Kaggle. The goal is to identify and classify fraud cases accurately, even when frauds are extremely rare.
 
-# Credit Card Fraud Detection
 
 ## Overview
 [Your existing overview here]
