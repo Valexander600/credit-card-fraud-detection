@@ -1,4 +1,8 @@
 # 💳 Credit Card Fraud Detection with Machine Learning
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
@@ -16,6 +20,10 @@
 
 ## Overview
 This project builds machine learning models to detect fraudulent credit card transactions using the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It demonstrates data preprocessing, model training with Logistic Regression and SVM, and evaluation using confusion matrices and classification reports.
+
+## 🎥 Demo GIF
+
+![Fraud Detection GIF](https://images.ctfassets.net/kqru4vgwujx6/5cVIMG80v3Ut87dFDbyfOM/8d082ae72237a018b21b01014008cb7b/The_Different_Types_of_Payment_Fraud-_What_You_Need_to_Know_2__1_.gif?w=800&q=90)
 
 
 ---
@@ -116,5 +124,11 @@ Use Flask or FastAPI to serve predictions via an API and deploy on Render, Herok
 📈 Set Up Monitoring & Alerts
 Incorporate real-time logging and alerting for model performance drift and anomaly detection in production environments.
 
+---
+
+## 🔗 Visit My Portfolio Website
+
+Check out all my projects and contact me directly:  
+🌐 [Victoria Alexander Portfolio](https://valexander600.github.io/victoria-ml-analyst.github.io/)
 
 
