@@ -129,6 +129,8 @@ Incorporate real-time logging and alerting for model performance drift and anoma
 ## 🔗 Visit My Portfolio Website
 
 Check out all my projects and contact me directly:  
-🌐 [Victoria Alexander Portfolio](https://valexander600.github.io/victoria-ml-analyst.github.io/)
+🌐 [Victoria Alexander Portfolio](https://valexander600.github.io/victoria-ml-analyst.github.io/)  
+🔎 [View This Project on GitHub](https://github.com/Valexander600/credit-card-fraud-detection)
+
 
 
